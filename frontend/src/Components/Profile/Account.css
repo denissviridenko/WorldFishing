@@ -1,0 +1,17 @@
+.account {
+    border: 2px solid #EFF3FF;
+    border-radius: 10px;
+    max-width: 700px;
+    height: fit-content;
+}
+
+.account__title {
+    padding: 23px 0 22px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    border: 2px solid #EFF3FF;
+    margin: 0;
+}

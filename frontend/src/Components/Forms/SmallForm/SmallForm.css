@@ -1,0 +1,55 @@
+.small-form {
+    display: flex;
+}
+
+.small-form__button {
+    width: 146px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: var(--main-color);
+    border-radius: 10px;
+    border: none;
+}
+
+.small-form__input {
+    width:220px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #949596;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 0;
+}
+
+.small-form__input_purpose_email {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-right: 4px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:560px) {
+    .small-form__button {
+        width: fit-content;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .small-form__input {
+        width:fit-content;
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 0;
+    }
+    .small-form {
+        display: flex;
+        justify-content: center;
+    }
+}

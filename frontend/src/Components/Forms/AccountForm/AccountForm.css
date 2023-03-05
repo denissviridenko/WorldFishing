@@ -1,0 +1,53 @@
+.account-form {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    row-gap: 22px;
+    column-gap: 20px;
+    padding: 23px 0 107px 30px;
+}
+
+
+.account-form__label {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(38, 38, 38, 0.6);
+    row-gap: 13px;
+}
+
+.account-form__input {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    height: 36px;
+    width: 291px;
+    padding-left: 5px;
+}
+
+.account-form__button {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #239BD8;
+    border: none;
+    background-color: transparent;
+    right: 32px;
+    top: -45px;
+}
+
+.account-form__button_inactive {
+    background-color: #ffffff;
+    color: gray;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

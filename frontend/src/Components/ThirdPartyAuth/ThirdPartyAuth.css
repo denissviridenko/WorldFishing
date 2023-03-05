@@ -1,0 +1,12 @@
+.third-party-auth {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.third-party-auth__item {
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+}

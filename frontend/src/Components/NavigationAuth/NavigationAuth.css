@@ -1,0 +1,123 @@
+.navigation-auth {
+    width: 83%;
+    display: flex;
+    margin-top: 9px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid var(--color-light);
+}
+
+.navigation-auth__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation-auth__search-form {
+    display: flex;
+}
+
+.navigation-auth__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-auth__item {
+    margin-right: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navigation-auth__register {
+    margin-right: 24px;
+}
+
+.navigation-auth__profile {
+    margin-right: 20px;
+}
+
+.navigation-auth__search {
+    margin-right: 28px;
+}
+
+.navigation-auth__button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation-auth__search-form-input {
+    display: none;
+    width: 287px;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.navigation-auth__search-form-input::placeholder {
+    padding: 10px 0;
+}
+
+.navigation-auth__search-form-input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.navigation-auth__search-form-input_active {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-auth__search-form-input {
+        width: 187px;
+    }
+    .navigation-auth__item {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .navigation-auth__profile {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .navigation-auth {
+        width: 100%;
+        margin: 0;
+        margin-top: 9px;
+        justify-content: flex-end;
+        height: fit-content;
+    }
+
+    .navigation-auth__list {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        row-gap: 3px;
+        margin: 0;
+    }
+
+    .navigation-auth__item {
+        margin-right: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .navigation-auth__search-form-input {
+        display: block;
+        width: 250px;
+    }
+}

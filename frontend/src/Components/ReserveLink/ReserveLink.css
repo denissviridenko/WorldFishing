@@ -1,0 +1,17 @@
+.reserve-button {
+    width: 258px;
+    background: #38ABFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    margin: 0;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+}

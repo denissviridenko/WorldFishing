@@ -1,0 +1,124 @@
+.slider-item {
+  width: 100%;
+  position: relative;
+}
+
+.slider-item__img {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  border: none;
+}
+
+.slider-item__tour-container {
+  position: absolute;
+  left: 196px;
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.slider-item__button {
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  width: 212px;
+  height: 42px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.slider-item__title {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: 59px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.slider-item__tour-container_place_second-slide {
+  right: 32px;
+  top: 37px;
+  left: auto;
+}
+
+.slider-item__tour-container_place_third-slide {
+  left: 57px;
+  top: 155px;
+}
+
+.slider-item__tour-container_place_fourth-slide {
+  left: auto;
+  top: 71px;
+  right: 183px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider-item__img {
+    height: 250px;
+  }
+  .slider-item__title {
+    height: fit-content;
+    font-size: 16px;
+    line-height: 20px;
+   
+  }
+  .slider-item__button {
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .slider-item__img {
+    height: 200px;
+  }
+  .slider-item__title {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 5px;
+   
+  }
+  .slider-item__button {
+    width: 100px;
+    height: 20px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .slider-item__tour-container_place_third-slide {
+    left: 57px;
+    top: 70px;
+  }
+  .slider-item__tour-container_place_fourth-slide {
+    right: 130px;
+  }
+  
+}

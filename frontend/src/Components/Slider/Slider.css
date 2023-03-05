@@ -1,0 +1,41 @@
+.slider {
+    width: 83%;
+    margin: 15px 0;
+}
+
+.slick-dots  {
+    position: absolute;
+    bottom: 9px;
+}
+
+.slick-dots li {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    line-height: 9px;
+}
+
+.slick-dots li button:before, .slick-dots li button  {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: #D9D9D999;
+    opacity: 60%;
+    display: block;
+    line-height: 9px;  
+}
+
+.slick-dots li.slick-active button:before {
+    color: #3A669A99; 
+    opacity: 0.6;
+}
+
+@media screen and (max-width:560px) {
+    .slider {
+        width: 100%;
+    }
+}

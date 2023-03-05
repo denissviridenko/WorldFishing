@@ -1,0 +1,53 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/Montserrat.css);
+@import url(./vendor/fonts/Lato.css);
+@import url(./vendor/fonts/Lexend.css);
+@import url(./vendor/variables.css);
+@import url(./root.css);
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+@import url(./Components/NavigationAuth/NavigationAuth.css);
+@import url(./Components/App/App.css);
+@import url(./Components/Header/Header.css);
+@import '@szhsin/react-menu/dist/index.css';
+@import '@szhsin/react-menu/dist/transitions/slide.css';
+@import url(./Components/Navigation/Navigation.css);
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import url(./Components/Slider/Slider.css);
+@import url(./Components/SliderItem/SliderItem.css);
+@import url(./Components/Slider/Arrow.css);
+@import url(./Components/InfoSpan/InfoSpan.css);
+@import url(./Components/Catalog/Catalog.css);
+@import url(./Components/Info/Info.css);
+@import url(./Components/ReserveLink/ReserveLink.css);
+@import url(./Components/Partners/Partners.css);
+@import url(./Components/Questions/Questions.css);
+@import url(./Components/Forms/SmallForm/SmallForm.css);
+@import url(./Components/Footer/Footer.css);
+@import url(./Components/NavigationFooter/NavigationFooter.css);
+@import url(./Components/Country/Country.css);
+@import url(./Components/Register/Register.css);
+@import url(./Components/ThirdPartyAuth/ThirdPartyAuth.css);
+@import url(./Components/Auth/Auth.css);
+@import url(./Components/Forms/AuthForm/AuthForm.css);
+@import url(./Components/Booking/Booking.css);
+@import url(./Components/Forms/BookingForm/BookingForm.css);
+@import url(./Components/CustomedDatePicker/CustomedDatePicker.css);
+@import url(./Components/Profile/Profile.css);
+@import url(./Components/Profile/Account.css);
+@import url(./Components/Forms/AccountForm/AccountForm.css);
+@import url(./Components/MyBookings/MyBookings.css);

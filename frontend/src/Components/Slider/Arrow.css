@@ -1,0 +1,18 @@
+.arrow {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    
+    top: 50%;
+    cursor: pointer;
+}
+
+.arrow_value_right {
+    right: 9px;
+    transform: translate(0, -50%);
+}
+
+.arrow_value_left {
+    left: 9px;
+    transform: translate(0, -50%);
+}

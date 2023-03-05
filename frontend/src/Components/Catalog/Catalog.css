@@ -1,0 +1,98 @@
+.catalog {
+    width: 83%;
+    background: #93C4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 6px;
+    box-sizing: border-box;
+}
+
+.catalog__row {
+    width: calc(100% - 12px);
+    height: 167px;
+    display: grid;
+}
+
+.catalog__row_place_first {
+    grid-template-columns: 28.38% 16.22% 33.19% 22.21%;
+}
+
+.catalog__row_place_second {
+    grid-template-columns: 28.55% 26.69% 19% 25.76%;
+}
+
+.catalog__row_place_third {
+    grid-template-columns: 25.94% 24.77% 26.89% 22.4%;
+}
+
+.catalog__item {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.catalog__title {
+    color: white;
+    margin: 0;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 930px) {
+    .catalog {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog {
+        width: 83%;
+    }
+    .catalog__row {
+        grid-template-columns: repeat(2, 1fr);
+        height: 50vh;
+    }
+    .catalog__item {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .catalog {
+        width: 100%;
+    }
+
+    .catalog__row {
+        grid-template-columns: repeat(2, 1fr);
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .catalog {
+        width: 100%;
+    }
+
+    .catalog__row {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+}

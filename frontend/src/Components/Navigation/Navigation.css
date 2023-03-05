@@ -1,0 +1,145 @@
+.navigation {
+    height: 90px;
+    width: 83%;
+    margin-top: 15px;
+}
+
+.navigation__list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #EFF3FF;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__item {
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation__menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    left: -40px;
+}
+
+.navigation__menu_place_seasons {
+    left: -10px;
+}
+
+.navigation__menu-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.navigation__menu-item {
+    color: var(--main-color);
+    width: 163px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.navigation__menu-container {
+    display: flex;
+    width: 370px;
+    height: calc(233px - 1rem);
+    left: 0px;
+    top: 19px;
+    border-radius: 10px;
+}
+
+.navigation__menu-container_place_seasons {
+    width: 181px;
+}
+
+.navigation__menu-column {
+    padding: 14px 8px 14px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navigation__menu-column_place_right {
+    padding: 14px 18px 14px 0;
+}
+
+.navigation___menu-triangle {
+    transform: translate(55px, -13px);
+    background: white;
+    background: url(../../images/Polygon.svg);
+    width: 22px;
+    height: 19px;
+    background-repeat: no-repeat;
+}
+
+.szh-menu--dir-bottom {
+    position: relative !important;
+    margin-top: 15px !important;
+    left: 0 !important;
+    top: 0 !important;
+    padding: 0 !important;
+}
+
+.szh-menu {
+    min-width: unset !important;
+}
+
+.navigation___menu-triangle_place_seasons {
+    transform: translate(26px, -13px);
+}
+
+@media screen and (max-width:768px) {
+    .navigation__menu-item {
+        width: 100px;
+        height: 23px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .navigation__menu-container {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .navigation__menu-container_place_seasons {
+        width: fit-content;
+        margin: 0;
+    }
+
+    .navigation__menu-column {
+        padding: 0px 8px 14px 18px;
+    }
+}
+
+
+@media screen and (max-width:560px) {
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation__menu-item {
+        width: 87px;
+    }
+}
